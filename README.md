@@ -19,6 +19,10 @@ $ sudo nft list ruleset
 3. Crear reglas a partir de un archivo nft
 
 ```bash
+$ sudo nano reglas.nft
+```
+
+```bash
 # Declaramos variables que utilizamos en el script
 define RedLocal = 192.168.153.0/24 # Apunta a mi red local.
 define updSI    = { 53 }
